@@ -52,7 +52,7 @@ def cryptify(tweet):
         tweet_words = body.split()
         for word in tweet_words:
             if word in rhyme_dict.keys():
-                new_body = body.replace(word, rhyme_dict[word][0].upper())
+                new_body = body.replace(word, rhyme_dict[word][0].upper(), 1)
                 break
         
         if len(new_body):
