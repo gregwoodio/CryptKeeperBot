@@ -3953,9 +3953,6 @@ rhyme_dict = {
 	'deem': [
 		'scream',
 	],
-	'at': [
-		'bat',
-	],
 	'aw': [
 		'claw',
 	],
